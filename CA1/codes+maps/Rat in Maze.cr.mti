@@ -1,0 +1,78 @@
+C:/Users/USER/Desktop/CA1/multiplexer.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/multiplexer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/USER/Desktop/CA1/intelligent_rat.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/intelligent_rat.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IntelligentRat
+
+Top level modules:
+	IntelligentRat
+
+} {} {}} C:/Users/USER/Desktop/CA1/maze_memory.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/maze_memory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MazeMemory
+
+Top level modules:
+	MazeMemory
+
+} {} {}} C:/Users/USER/Desktop/CA1/queue.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/queue.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Queue
+
+Top level modules:
+	Queue
+
+} {} {}} C:/Users/USER/Desktop/CA1/stack.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/stack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}} C:/Users/USER/Desktop/CA1/datapath.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} C:/Users/USER/Desktop/CA1/counter.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/counter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/USER/Desktop/CA1/controller.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/USER/Desktop/CA1/TB.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Users/USER/Desktop/CA1/adder_subtractor.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/adder_subtractor.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_Subtractor
+
+Top level modules:
+	Adder_Subtractor
+
+} {} {}} C:/Users/USER/Desktop/CA1/can_move.sv {1 {vlog -work work -sv -stats=none C:/Users/USER/Desktop/CA1/can_move.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CanMove
+
+Top level modules:
+	CanMove
+
+} {} {}}

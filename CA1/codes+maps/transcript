@@ -1,0 +1,269 @@
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv failed with 1 errors.
+# Compile of counter.sv failed with 1 errors.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv failed with 1 errors.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv failed with 1 errors.
+# Compile of TB.sv was successful.
+# 12 compiles, 6 failed with 7 errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv failed with 1 errors.
+# Compile of counter.sv failed with 1 errors.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv failed with 1 errors.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv failed with 1 errors.
+# Compile of TB.sv was successful.
+# 12 compiles, 6 failed with 7 errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv failed with 1 errors.
+# Compile of counter.sv failed with 1 errors.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv failed with 1 errors.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 5 failed with 6 errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv failed with 1 errors.
+# Compile of counter.sv failed with 1 errors.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 4 failed with 5 errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv failed with 1 errors.
+# Compile of counter.sv failed with 1 errors.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 4 failed with 5 errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv failed with 1 errors.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 3 failed with 4 errors.
+# Compile of stack.sv failed with 2 errors.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 2 failed with 3 errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv failed with 1 errors.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv failed with 1 errors.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv failed with 1 errors.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 2 failed with 2 errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv failed with 1 errors.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv failed with 1 errors.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 2 failed with 2 errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv failed with 1 errors.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of stack.sv was successful.
+# Compile of queue.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of adder_subtractor.sv was successful.
+# Compile of can_move.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of intelligent_rat.sv was successful.
+# Compile of maze_memory.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of register.sv was successful.
+# Compile of TB.sv was successful.
+# 12 compiles, 0 failed with no errors.

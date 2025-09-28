@@ -1,0 +1,14 @@
+module Adder_Subtractor #(parameter N = 4) (
+    input [N-1:0] A, B,   
+    input add_sub,            
+    output [N-1:0] result, 
+);
+
+    wire [N-1:0] B_complement; 
+    wire [N-1:0] B_input;     
+
+    assign B_complement = ~B + 1;
+    assign B_input = (add_sub) ? B : B_complement;
+    assign  result = A + B_input;
+
+endmodule

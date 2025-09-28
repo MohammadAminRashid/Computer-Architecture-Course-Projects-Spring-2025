@@ -1,0 +1,26 @@
+module IntelligentRat(
+    input clk,rst,start,Run,D_out,
+    output [3:0] X,Y,
+    output Done,Fail,D_in,RD,WR,
+	output [1:0] Move
+);
+
+//don't froget to add stack and queuee signals
+wire co , can_move, is_goal, empty_stack, read_path_finished , reverse, read_start , load_row , load_col , load_counter 
+, reset_reg , reset_counter ,  reset_stack , reset_queue , en_counter;
+
+wire [1:0] stack_push, stack_pop;
+
+DataPath dp(clk, en_counter, reverse,reset_reg,reset_counter,reset_stack , reset_queue , read_start, D_out, load_row , load_col , load_counter,
+stack_push, stack_pop, enqueue , can_move, co, is_goal, empty_stack,read_path_finished, X, Y , Move);
+
+
+Controller cu(clk,rst,start,Run,co, can_move,is_goal, empty_stack,read_path_finished, D_out, en_counter, reverse,reset_reg, reset_counter,
+reset_stack, reset_queue, read_start, load_row, load_col, load_counter, stack_push, stack_pop, enqueue, WR , RD , D_in , Fail , Done);
+
+
+
+
+endmodule
+
+

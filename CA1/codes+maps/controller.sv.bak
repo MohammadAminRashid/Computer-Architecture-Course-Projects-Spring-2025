@@ -1,0 +1,86 @@
+`define idle	            5'b00000             
+`define init                5'b00001             
+`define start_search        5'b00010   
+`define place_wall          5'b00011                 
+`define check_move          5'b00100                     
+`define update_pos          5'b00101
+`define check_empty_stack   5'b00110 
+`define pop_stack           5'b00111 
+`define load_counter        5'b01000
+`define move_reverse        5'b01001 
+`define free_pos_check_bt   5'b01010
+`define change_dir          5'b01011 
+`define fail                5'b01100     
+`define stack_read          5'b01101   
+`define update_queue        5'b01110                                             
+`define done                5'b01111             
+`define show                5'b10000             
+
+
+module Controller(
+	input clk, rst, start, Run, co, can_move,is_goal, empty_stack,read_path_finished, D_out, 
+
+	output reg en_counter,reverse,reset_reg,reset_counter,reset_stack,reset_queue,read_start,ldx,ldy,ldc,stack_push,stack_pop,enqueue, // Connections with DP
+		   WR,RD,D_in, // Connections with Mem
+		   Fail,Done
+);
+
+	reg [4:0] pstate = `idle;
+	reg [4:0] nstate = `idle;
+
+	always @(posedge clk or posedge rst) begin
+		if (rst)
+			pstate <= `idle;
+		else 
+			pstate <= nstate;
+	end
+
+	always @(pstate or start or Run or co or can_move or is_goal or empty_stack or read_path_finished or  D_out) begin
+		case (pstate)
+			`idle             : nstate <= start? `init : `idle;                        
+			`init             : nstate <= ~start? `start_search : `init;                        
+			`start_search     : nstate <= ~is_goal? `place_wall : `stack_read;                     
+			`place_wall       : nstate <= `check_move;  
+			`check_move       : nstate <= (can_move ? `update_pos : (co ? `check_empty_stack : `change_dir) );  
+			`update_pos       : nstate <= `start_search;   
+			`check_empty_stack: nstate <= empty_stack ? `fail : `pop_stack;   
+			`pop_stack        : nstate <= `load_counter; 
+			`load_counter     : nstate <= `move_reverse;
+			`move_reverse     : nstate <= `free_pos_check_bt;
+			`free_pos_check_bt: nstate <= co ? `check_empty_stack : `change_dir;
+			`change_dir       : nstate <= `check_move;
+      		`fail             : nstate <= `fail;                        
+			`stack_read       : nstate <= `update_queue;                       
+			`update_queue     : nstate <= ~empty_stack ? `stack_read : `done;                        
+			`done             : nstate <= Run ? `show : `done;                        
+			`show             : nstate <= read_path_finished ? `done : `show;            
+		endcase
+	end
+
+	always @(pstate) begin
+		{en_counter,reverse,reset_reg,reset_counter,reset_stack,reset_queue,read_start,ldx,ldy,ldc,stack_push,stack_pop,enqueue,
+		WR,RD,D_in,
+		Fail,Done} = 18'b0;
+		case (pstate)
+			`init             : begin reset_reg = 1'b1;
+							    reset_queue = 1'b1; reset_stack = 1'b1; 
+								reset_counter= 1'b1; end           
+			`start_search	  : begin reset_counter = 1'b1; end
+			`place_wall		  : begin WR = 1'b1; D_in = 1'b1; end
+			`update_pos		  : begin ldx = 1'b1; ldy = 1'b1; stack_push = 1'b1; end
+			`pop_stack		  : begin stack_pop = 1'b1; end  
+			`load_counter	  : begin ldc = 1'b1; end   
+			`move_reverse	  : begin ldx = 1'b1; ldy = 1'b1; reverse = 1'b1; end
+			`free_pos_check_bt: begin WR = 1'b1; end
+			`change_dir       : begin en_counter = 1'b1; end 
+			`fail			  : begin Fail = 1'b1; end 
+			`stack_read		  : begin stack_pop = 1'b1; end
+			`update_queue	  : begin enqueue = 1'b1; end
+			`done			  : begin Done = 1'b1; end 
+			`show			  : begin Done = 1'b1; end 
+		endcase
+	end
+
+	
+	
+endmodule

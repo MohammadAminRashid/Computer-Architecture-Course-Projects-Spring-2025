@@ -1,0 +1,21 @@
+module counter #(parameter N=2)(  //VERSION 2
+    input clk,reset,load,en,
+    input[N-1:0] par_load,
+    output co,
+    output reg [N-1:0] W 
+);
+
+always @(posedge clk or posedge reset) begin
+   if(reset)
+        W<={N{1'b0}};
+   
+   else if(load)
+        W<=par_load;
+   
+   else if(en)
+        W<=W+1;
+   
+end
+
+   assign co = (W == {N{1'b1}});
+endmodule

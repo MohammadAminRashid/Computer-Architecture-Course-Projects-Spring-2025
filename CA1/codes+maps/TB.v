@@ -1,0 +1,28 @@
+`timescale 1ns / 1ns
+module tb;
+    reg clk,rst,start,Run;
+    wire Done,Fail,D_in,RD,WR;
+    wire [3:0] X,Y;
+	wire [1:0] Move;
+
+IntelligentRat IR(clk,rst,start,Run,D_out,X,Y,Done,Fail,D_in,RD,WR,Move);
+MazeMemory MM(clk,D_in,RD,WR,X,Y,D_out);
+
+
+initial begin
+  repeat(500000) #5 clk=~clk;
+end
+initial begin
+    clk=0;
+    Run=0;
+	start = 0;
+    #5 rst=1;
+    #5 rst=0;
+    #5 start=1;
+    #10 start=0;
+    #20000 Run=1;
+    #10 Run=0;
+    #1000 $stop;
+  end
+
+endmodule

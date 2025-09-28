@@ -1,0 +1,71 @@
+C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/controller.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MULTI_CYCLE_TB
+
+Top level modules:
+	MULTI_CYCLE_TB
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TopModule.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TopModule.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TopModule
+
+Top level modules:
+	TopModule
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/stack.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/stack.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/data_memory.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/data_memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/ALU.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}}

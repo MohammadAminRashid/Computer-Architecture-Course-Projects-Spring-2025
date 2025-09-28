@@ -1,0 +1,263 @@
+vsim -gui work.MULTI_CYCLE_TB
+# vsim -gui work.MULTI_CYCLE_TB 
+# Start time: 13:40:02 on May 24,2025
+# Loading work.MULTI_CYCLE_TB
+# Loading work.TopModule
+# Loading work.Datapath
+# Loading work.register
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.ALU
+# Loading work.Data_Memory
+# Loading work.Stack
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'load'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 36
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/clk \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/reset \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/push \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/pop \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/IR_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/en2 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/en3 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/write_en \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/pc_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/old_pc_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/adr_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/s1 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/s2 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/bus5_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/bus8_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/ALU_control \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/opc \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/Zero
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v(16)
+#    Time: 2003 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB
+# Break in Module MULTI_CYCLE_TB at C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v line 16
+# Break key hit
+add wave -position insertpoint  \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/clk \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/reset \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/push \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/pop \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/IR_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/en2 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/en3 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/write_en \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/pc_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/old_pc_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/adr_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/s1 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/s2 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_control \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/opc \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Zero \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALUResult \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/D_in \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/D_out \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ReadData \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/IR_regout \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/A_regout \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/B_regout \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg_out \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/PC \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/old_PC \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'load'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 36
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'load'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 36
+vsim -gui work.MULTI_CYCLE_TB
+# End time: 13:43:55 on May 24,2025, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 13
+# vsim -gui work.MULTI_CYCLE_TB 
+# Start time: 13:43:55 on May 24,2025
+# Loading work.MULTI_CYCLE_TB
+# Loading work.TopModule
+# Loading work.Datapath
+# Loading work.register
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.ALU
+# Loading work.Data_Memory
+# Loading work.Stack
+# Loading work.Controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'load'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 36
+add wave -position insertpoint  \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/clk \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/reset \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/push \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/pop \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/IR_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/en2 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/en3 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/write_en \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/pc_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/old_pc_write \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/adr_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/s1 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/s2 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_control \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/opc \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Zero \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALUResult \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/D_in \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/D_out \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ReadData \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/IR_regout \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/A_regout \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/B_regout \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg_out \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5 \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/PC \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/old_PC \
+sim:/MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v(16)
+#    Time: 2003 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB
+# Break in Module MULTI_CYCLE_TB at C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'load'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/register.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/ALU_reg File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux2to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/Addr_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'C'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'Y'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus5_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/bus8_src_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcB_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'D'. The port definition is at: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB/MULTI_CYCLE_UUT/dp/SrcA_mux File: C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/datapath.v Line: 36
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v(16)
+#    Time: 2003 ns  Iteration: 0  Instance: /MULTI_CYCLE_TB
+# Break in Module MULTI_CYCLE_TB at C:/Users/Asus/Desktop/CA3_MULTI_CYCLE/TestBench.v line 16
+# End time: 14:02:42 on May 24,2025, Elapsed time: 0:18:47
+# Errors: 0, Warnings: 13

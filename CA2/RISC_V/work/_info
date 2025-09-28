@@ -1,0 +1,320 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Asus/Desktop/DLD_LAB
+vAdder
+Z0 !s110 1746382065
+!i10b 1
+!s100 lA`QHYLAAKDVK=d?K[nnG2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IFMHemzaZ<kad@7PdW=GN41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Asus/Desktop/RISC_V
+w1746080345
+8C:/Users/Asus/Desktop/RISC_V/adder.v
+FC:/Users/Asus/Desktop/RISC_V/adder.v
+!i122 227
+L0 1 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1746382065.000000
+!s107 C:/Users/Asus/Desktop/RISC_V/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 UgJ2ioMEgie4NIllBa8?82
+R1
+I`_k94C42I8ZMKh7dRY4D82
+R2
+R3
+w1746381927
+8C:/Users/Asus/Desktop/RISC_V/ALU.v
+FC:/Users/Asus/Desktop/RISC_V/ALU.v
+!i122 228
+L0 9 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vController
+Z8 !s110 1746382066
+!i10b 1
+!s100 GM5_omJgbTdFJ48W:[3o@2
+R1
+IQ5kA=i;<2:XVENJSWI@Od3
+R2
+R3
+w1746259964
+8C:/Users/Asus/Desktop/RISC_V/controller.v
+FC:/Users/Asus/Desktop/RISC_V/controller.v
+!i122 236
+L0 11 189
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/controller.v|
+!i113 1
+R6
+R7
+n@controller
+vData_Memory
+R0
+!i10b 1
+!s100 I662MVhZA]fR]4^7BIXO`2
+R1
+Id[Gm?bRzMSKDfnLF5OR^A0
+R2
+R3
+w1746377660
+8C:/Users/Asus/Desktop/RISC_V/data_memory.v
+FC:/Users/Asus/Desktop/RISC_V/data_memory.v
+!i122 229
+L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/data_memory.v|
+!i113 1
+R6
+R7
+n@data_@memory
+vDatapath
+R8
+!i10b 1
+!s100 KiB5BTkTY3LQTCS^[GWUc1
+R1
+IH]4<GShZCKTMNFSV=@Cm?1
+R2
+R3
+w1746196583
+8C:/Users/Asus/Desktop/RISC_V/datapath.v
+FC:/Users/Asus/Desktop/RISC_V/datapath.v
+!i122 237
+L0 1 57
+R4
+r1
+!s85 0
+31
+Z9 !s108 1746382066.000000
+!s107 C:/Users/Asus/Desktop/RISC_V/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/datapath.v|
+!i113 1
+R6
+R7
+n@datapath
+vImm_Extend
+R0
+!i10b 1
+!s100 ;Dm@9XIS?>4of5OL;f1_F2
+R1
+I`6eLKSm;dUPU__O>dDe4K2
+R2
+R3
+w1746185922
+8C:/Users/Asus/Desktop/RISC_V/imm_extend.v
+FC:/Users/Asus/Desktop/RISC_V/imm_extend.v
+!i122 230
+L0 8 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/imm_extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/imm_extend.v|
+!i113 1
+R6
+R7
+n@imm_@extend
+vInstruction_Memory
+R0
+!i10b 1
+!s100 SOS;J53aUKGbn@bVE^Qa^2
+R1
+I58^alFU?]MjGH:[`U3[<n1
+R2
+R3
+w1746377679
+8C:/Users/Asus/Desktop/RISC_V/instruction_mem.v
+FC:/Users/Asus/Desktop/RISC_V/instruction_mem.v
+!i122 231
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/instruction_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/instruction_mem.v|
+!i113 1
+R6
+R7
+n@instruction_@memory
+vmux2to1
+R0
+!i10b 1
+!s100 OcXWEg]fGFaoWEJChnlh72
+R1
+I28`T5NFO2h1_GPX6bQ=IO1
+R2
+R3
+w1746080521
+8C:/Users/Asus/Desktop/RISC_V/mux2to1.v
+FC:/Users/Asus/Desktop/RISC_V/mux2to1.v
+!i122 232
+L0 1 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/mux2to1.v|
+!i113 1
+R6
+R7
+vmux4to1
+R0
+!i10b 1
+!s100 EOGMm^4`6keUo;j2f@T5E0
+R1
+ITM1?34h_N[0?j3?fQdZ_Q3
+R2
+R3
+w1746089801
+8C:/Users/Asus/Desktop/RISC_V/mux4to1.v
+FC:/Users/Asus/Desktop/RISC_V/mux4to1.v
+!i122 233
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/mux4to1.v|
+!i113 1
+R6
+R7
+vregister
+R0
+!i10b 1
+!s100 6?a1ULP[;6[<i9mkSbUTj2
+R1
+I?Obb=0ko5]0kC[@VhS=5L2
+R2
+R3
+w1746196672
+8C:/Users/Asus/Desktop/RISC_V/register.v
+FC:/Users/Asus/Desktop/RISC_V/register.v
+!i122 234
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/register.v|
+!i113 1
+R6
+R7
+vRegister_File
+R0
+!i10b 1
+!s100 Rd84aPjGhzP^4H_JZDW063
+R1
+Id?J=FaNCOR[RG4W_>c=Jm1
+R2
+R3
+w1746381062
+8C:/Users/Asus/Desktop/RISC_V/register_file.v
+FC:/Users/Asus/Desktop/RISC_V/register_file.v
+!i122 235
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Asus/Desktop/RISC_V/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/register_file.v|
+!i113 1
+R6
+R7
+n@register_@file
+vRISC_V
+R8
+!i10b 1
+!s100 kOaK=NgINeQ8M>8Uhi[fJ1
+R1
+I>7m???lWS5UbS>zj9Q0FK0
+R2
+R3
+w1746185638
+8C:/Users/Asus/Desktop/RISC_V/RiscV_SingleCycle.v
+FC:/Users/Asus/Desktop/RISC_V/RiscV_SingleCycle.v
+!i122 238
+L0 1 14
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Asus/Desktop/RISC_V/RiscV_SingleCycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/RiscV_SingleCycle.v|
+!i113 1
+R6
+R7
+n@r@i@s@c_@v
+vRISC_V_TB
+R8
+!i10b 1
+!s100 `VdbRgQS4:^heYJ6a1]HX0
+R1
+IoR0jWFAZm<64Tzf9JWTK33
+R2
+R3
+w1746188053
+8C:/Users/Asus/Desktop/RISC_V/TestBench.v
+FC:/Users/Asus/Desktop/RISC_V/TestBench.v
+!i122 239
+L0 3 17
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Asus/Desktop/RISC_V/TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/RISC_V/TestBench.v|
+!i113 1
+R6
+R7
+n@r@i@s@c_@v_@t@b

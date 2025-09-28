@@ -1,0 +1,85 @@
+C:/Users/Asus/Desktop/RISC_V/datapath.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/TestBench.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V_TB
+
+Top level modules:
+	RISC_V_TB
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/adder.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/register.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/instruction_mem.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/instruction_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/mux2to1.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/RiscV_SingleCycle.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/RiscV_SingleCycle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISC_V
+
+Top level modules:
+	RISC_V
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/data_memory.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/data_memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/mux4to1.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/imm_extend.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/imm_extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Imm_Extend
+
+Top level modules:
+	Imm_Extend
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/controller.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/Asus/Desktop/RISC_V/register_file.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/RISC_V/register_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}}

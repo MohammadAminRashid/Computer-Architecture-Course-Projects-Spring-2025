@@ -1,0 +1,40 @@
+module Queue #(parameter WIDTH = 2,parameter DEPTH = 256)(
+	input clk, rst, enqueue , read_start ,
+	input [WIDTH-1 	:0]  direction_in ,
+	output reg  read_finished ,
+	output reg [WIDTH - 1:0] d_out
+);
+	
+	reg[WIDTH - 1 :0] q [0:DEPTH - 1];
+	reg [DEPTH - 1:0] ptr, length;
+	reg reading;
+
+	always @(posedge clk or posedge rst) begin
+		if(rst) begin
+			ptr <= 0;
+			length <= 0;
+		end
+		else if (enqueue)begin
+			q[length] <= direction_in;
+            length <= length + 1;
+		end
+			
+		else if (read_start && !reading ) begin
+            ptr <= length - 1;
+            reading <= 1;
+            read_finished <= 0;
+        end
+		else if (reading) begin
+            if (ptr >= 0) begin
+                d_out <= q[ptr];
+                ptr <= ptr - 1;
+            end
+            else begin
+                ptr <= length - 1;
+                reading <= 0;
+                read_finished <= 1;
+            end
+        end		
+	end
+
+endmodule
